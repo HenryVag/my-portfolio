@@ -14,7 +14,7 @@ export default function Experience() {
             <h1> Work Experience</h1>
             <div className="card-container">
                 <Project title="Thesis" employer={"theFirma - TurkuAMK"} duration={"January 2026 - "} img={theFirma} tools = {["React", "React-Native", "TypeScript"]} description={thesis_description} />
-                <Project title="Software Developer" employer={"theFirma - TurkuAMK"} duration={"September 2025 - December 2025"} img={actionLahetit} tools={["Excel VBA", "Thunderbird"]} githubLink="https:/hub./HenryVag/excel-logistics-automation" description="Visual Basic modules I created for Action Lähetit, a local delivery company. I automated the fetching of delivery data from Excel files. The modules have been made for both MacOS and Windows."/>
+                <Project title="Software Developer" employer={"theFirma - TurkuAMK"} duration={"September 2025 - December 2025"} img={actionLahetit} tools={["Excel VBA", "Thunderbird"]} githubLink="https:/hub./HenryVag/excel-logistics-automation" description={action_lahetit_description}/>
                 <Project title="Service Desk" employer="2MIT" duration="December 2024 - July 2025" img={mit} tools={["O365", "ServiceNow", "SCCM Remote", "Citrix", "Microsoft AD"]} description={service_desk_description}/>
                 <Project title="Kansalaisen IT-Tuki" employer={"theFirma - TurkuAMK"} duration={"September 2024 - December 2024"} img={kitt} tools={["Linux"]} description={kitt_description} />
             </div>
