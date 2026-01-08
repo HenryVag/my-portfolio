@@ -1,0 +1,22 @@
+.footer-container {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-weight:600;
+}
+
+.email-logo {
+    width: 30px;
+    height: 30px;
+    
+}

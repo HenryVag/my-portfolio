@@ -1,0 +1,21 @@
+.link-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    background-color: #313131 ;
+    padding: 3px;
+    border-radius: 5px;
+    width: 6rem;
+    
+
+}
+
+.github-logo {
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+
+.github-text {
+    
+}

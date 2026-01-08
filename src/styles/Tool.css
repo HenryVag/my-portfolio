@@ -1,0 +1,13 @@
+.tool-container {
+    background-color: #313131;
+    width: fit-content;
+    padding: 0.4rem;
+    border-radius: 5px;    
+}
+
+.tool-name {
+    font-size: 0.7rem;
+    color: #cccccc;
+    font-weight: bold;
+    margin: 0;
+}
