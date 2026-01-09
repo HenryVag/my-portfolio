@@ -15,8 +15,16 @@
     font-weight:600;
 }
 
+.contact-header {
+    color: white
+}
+
 .email-logo {
     width: 30px;
     height: 30px;
     
+}
+
+.email-text {
+    color: white;
 }

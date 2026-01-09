@@ -7,10 +7,10 @@ export default function Footer() {
     return (
         <div className="parent-container">
             <footer className="footer-container">
-                <h3>Contact me</h3>
+                <h3 className='contact-header'>Contact me</h3>
                 <div className="contact-container">
                     <LogoSvg className="email-logo"/>
-                    <p>henryovag@hotmail.com</p>
+                    <p className="email-text">henryovag@hotmail.com</p>
                 </div>
             </footer>
         </div>
