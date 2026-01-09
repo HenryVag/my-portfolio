@@ -17,6 +17,11 @@
 .greeting-text {
   margin-top: 25rem;
   font-size: 5rem;
+  color: white;
+}
+
+.section-header {
+  color: white;
 }
 
 .small-text {
