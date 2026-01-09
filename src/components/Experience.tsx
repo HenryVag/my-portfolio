@@ -11,7 +11,7 @@ import { thesis_description, action_lahetit_description, service_desk_descriptio
 export default function Experience() {
     return (
         <div className="parent-container">
-            <h1> Work Experience</h1>
+            <h1 className="section-header"> Work Experience</h1>
             <div className="card-container">
                 <Project title="Thesis" employer={"theFirma - TurkuAMK"} duration={"January 2026 - "} img={theFirma} tools = {["React", "React-Native", "TypeScript"]} description={thesis_description} />
                 <Project title="Software Developer" employer={"theFirma - TurkuAMK"} duration={"September 2025 - December 2025"} img={actionLahetit} tools={["Excel VBA", "Thunderbird"]} githubLink="https:/hub./HenryVag/excel-logistics-automation" description={action_lahetit_description}/>

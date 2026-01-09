@@ -9,7 +9,7 @@ import { platinum_description, sparrow_description } from "../data/descriptions"
 export default function Projects() {
     return (
         <div className="parent-container">
-            <h1> Personal Projects </h1>
+            <h1 className="section-header"> Personal Projects </h1>
             <div className="card-container" >
                 <Project title="Pokémon Platinum (PyGame)" img={platinumGif} description={platinum_description} githubLink="https://github.com/HenryVag/pokemon-platinum-pygame" tools={["Python", "PyGame", "Tiled"]} />
                 <Project title="Sparrow MP3-Player" img={rn} description={sparrow_description} githubLink="https://github.com/HenryVag/sparrow-mp3" tools={["React-Native", "Expo", "Expo Filesystem", "Expo Audio"]} />
